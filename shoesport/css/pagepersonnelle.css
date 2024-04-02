@@ -1,0 +1,33 @@
+.elements {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    color: black;
+}
+
+.elements p {
+    margin: 5px 0;
+}
+
+.elements a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.elements a:hover {
+    color: darkblue;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgray;
+}

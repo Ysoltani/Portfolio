@@ -1,0 +1,57 @@
+
+.produits-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    /* Autres styles des produits */
+}
+
+.produit {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer le contenu des produits */
+    padding: 15px; /* Espace à l'intérieur des produits */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour les produits */
+    background-color: #333; /* Fond sombre */
+    color: #fff; /* Texte blanc */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajout d'une transition fluide */
+}
+
+.produit:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Ombre légèrement plus prononcée au survol */
+}
+
+.produit img {
+    width: 100%;
+    max-width: 150px; /* Taille maximale de l'image */
+    height: auto;
+    border-radius: 8px; /* Coins arrondis pour l'image */
+    margin-bottom: 10px; /* Espace sous l'image */
+}
+
+.nom {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px; /* Espace sous le nom */
+}
+
+.prix {
+    font-size: 14px;
+    margin-bottom: 5px; /* Espace sous le prix */
+}
+
+.couleur {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .produits-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Réduction du nombre de colonnes sur les petits écrans */
+        gap: 15px; /* Réduction de l'espace entre les produits sur les petits écrans */
+    }
+}
