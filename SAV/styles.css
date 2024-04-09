@@ -1,0 +1,31 @@
+/* styles.css */
+
+.connexion-frame {
+    background-color: #faebd7;
+    padding: 30px; /* Augmenter la taille du padding pour agrandir le cadre */
+}
+
+.label {
+    font-family: Arial;
+    font-size: 14px; /* Augmenter la taille de la police pour les étiquettes */
+    background-color: #faebd7;
+}
+
+.entry {
+    font-family: Arial;
+    font-size: 14px; /* Augmenter la taille de la police pour les entrées */
+    padding: 5px; /* Augmenter la taille du padding pour les entrées */
+}
+
+.button {
+    font-family: Arial;
+    font-size: 14px; /* Augmenter la taille de la police pour les boutons */
+    padding: 10px 20px; /* Augmenter la taille du padding pour les boutons */
+    border-radius: 10px; /* Arrondir les coins des boutons */
+    background-color: #007bff; /* Changer la couleur de fond des boutons */
+    color: #fff; /* Changer la couleur du texte des boutons */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Changer la couleur de fond des boutons au survol */
+}
